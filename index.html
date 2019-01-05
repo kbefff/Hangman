@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- reset -->
+    <!-- <link href="assets/css/reset.css" type="text/css" rel="stylesheet"> -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- css -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Hangman</h1>
+                <p class="lead">press any key to start</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- <h2>Word to guess</h2> -->
+        <div class="panel panel-default">
+            <div class="panel-heading">Word to Guess</div>
+            <div class="panel-body" id="wordToGuess">_ _ _ _ _ _</div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- <h2>Panel Heading</h2> -->
+        <div class="panel panel-default">
+            <div class="panel-heading">Wrong Guesses:</div>
+            <div class="panel-body"><span id="wrongLetters"></span></div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- <h2>Panel Heading</h2> -->
+        <div class="panel panel-default">
+            <div class="panel-heading">Guesses Left:</div>
+            <div class="panel-body"><span id="numGuesses"></span></div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- <h2>Panel Heading</h2> -->
+        <div class="panel panel-default">
+            <div class="panel-heading">Win Counter:</div>
+            <div class="panel-body"><span id="winCounter"></span></div>
+        </div>
+    </div>
+    <div class="container">
+            <!-- <h2>Panel Heading</h2> -->
+            <div class="panel panel-default">
+                <div class="panel-heading">Loss Counter:</div>
+                <div class="panel-body"><span id="lossCounter"></span></div>
+            </div>
+        </div>
+
+
+</body>
+<script src="assets/javascript/script.js"></script>
+
+</html>
